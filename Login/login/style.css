@@ -1,0 +1,78 @@
+body {
+    background-image: url('/DL/background.png');
+    background-size: cover;
+}
+
+
+#signin-signup{
+  position: relative;
+  left: 450px;
+  top: 450px; 
+
+}
+
+#sign-in-form{
+  max-width: 400px;
+  /* background:rgb(181, 225, 247); */
+  flex-grow: 1;
+  padding: 30px 30px 40px;
+  /* box-shadow: 0px 0px 17px 2px rgba(255, 255, 255); */
+}
+
+.form-group {
+  border-bottom: 1px solid #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.form-group i{
+  color: #fff;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#txtID{
+  background:transparent;
+  border: 0;
+  outline:0;
+  color: rgb(2, 61, 64);
+  flex-grow: 1;
+}
+#pw{
+  background:transparent;
+  border: 0;
+  outline:0;
+  color: rgb(2, 61, 64);
+  flex-grow: 1;
+}
+#txtID #pw::placeholder{
+  color: #a31717;
+}
+
+#eye i{
+  padding-right: 0;
+}
+
+#submit{
+  background: transparent;
+  border: 1px solid #f5f5f5;
+  color: #fff;
+  width: 100%;
+  padding: 6px 10px;
+  transition: 0.25s ease-in-out;
+  margin-top: 30px;
+}
+#empty {
+  color:black
+}
+#p_empty{
+  color:black
+}
+#submit{
+  color:black
+}
+#submit:hover{
+  border: 1px solid #54a0ff;
+}
