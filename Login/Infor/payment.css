@@ -6,6 +6,9 @@ body {
     font-size: 50px;
     align-items: center;
 }
+.active{
+    text-decoration: none
+}
 #list h2{
     font-size: 30px;
     position: relative;
