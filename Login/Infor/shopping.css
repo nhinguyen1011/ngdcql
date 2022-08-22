@@ -15,10 +15,11 @@ button {
   }
 #menu {
     position: relative;
-    left: 25px;
+    left: 50px;
     top: 30px; 
     font-size:18px;
     list-style-type: none;
+    line-height: 60px;
 }
 #menu li img{
     position: relative;
@@ -31,11 +32,13 @@ button {
     left: -30px;
     top: 40px; 
     font-size:14px;
+    text-decoration: none
+
 }
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -220px; 
+    top: -400px; 
 }
 
 
@@ -50,13 +53,13 @@ button {
     margin-bottom: 15px;
     break-inside: avoid;
     position:relative;
-    left: 340px;
-    top: -210px; 
+    left: 360px;
+    top: -350px; 
 }
 .box{
     position:relative;
-    left: 350px;
-    top: -250px; 
+    left: 370px;
+    top: -400px; 
 }
 .home-filter-label{
     position:relative;
@@ -69,8 +72,8 @@ button {
     list-style-type: none;
     display:flex;
     position:relative;
-    left: 350px;
-    top: -230px; 
+    left: 390px;
+    top: -380px; 
 }
 .container ul.tab li{
     background:rgb(93, 208, 208);

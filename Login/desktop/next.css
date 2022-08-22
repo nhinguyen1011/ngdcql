@@ -29,6 +29,8 @@ button {
      left: -30px;
      top: 40px; 
      font-size:14px;
+     text-decoration: none
+
  }
 .icon-mini{
      position:relative;

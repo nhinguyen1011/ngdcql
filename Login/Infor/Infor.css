@@ -19,6 +19,7 @@ button {
     top: 30px; 
     font-size:18px;
     list-style-type: none;
+    line-height: 60px;
 }
 #menu li img{
     position: relative;
@@ -31,11 +32,13 @@ button {
     left: -30px;
     top: 40px; 
     font-size:14px;
+    text-decoration: none
+
 }
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -220px; 
+    top: -400px; 
 }
 #container{
     position:relative;
