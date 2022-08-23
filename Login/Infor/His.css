@@ -1,0 +1,99 @@
+body {
+    background-image: url('/DL/full.png');
+    background-size: cover;
+}
+#form{
+    border: 6px double #b1154a;
+    margin: auto;  
+    width: 80%;
+    padding: 10px;
+    position: relative;
+    left: -40px;
+    top: 0px; 
+}
+table #ima{
+    width:150px;
+    height:140px
+}
+.active{
+    text-decoration: none
+}
+.wrap h4{
+    position: relative;
+    left: 450px;
+    top: -350px; 
+}
+#submit{
+    background: transparent;
+    border: 1px solid #b62d2d;
+    color: rgb(14, 4, 4);
+    width: 100%;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+h1{
+    position: relative;
+    left: 620px;
+    top: -360px; 
+    font-family:'Courier New', Courier, monospace
+}
+.custom-logo{
+    position: relative;
+    left: 100px;
+    top: 50px; 
+  }
+#menu {
+    position: relative;
+    left: 40px;
+    top: 30px;     
+    list-style-type: none;
+    font-size:18px;
+    line-height: 60px;    
+}
+#menu li img{
+    position: relative;
+    left: -40px;
+    top: 40px; 
+    font-size:18px;
+}
+#menu li a{
+    position: relative;
+    left: -30px;
+    top: 40px; 
+    font-size:14px;
+    text-decoration: none
+
+}
+.icon-mini{
+    position:relative;
+    left: 1100px;
+    top: -350px; 
+}
+
+
+.lab{
+    position: relative;
+    left: 400px;
+    top: -340px; 
+    font-size: 18px;
+    text-align: center
+
+}
+table td{
+    width:180px
+
+}
+#submit1{
+    background: transparent;
+    border: 1px solid #b62d2d;
+    color: rgb(14, 4, 4);
+    width: 90%;
+    padding: 4px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    position:relative;
+    left:540px;
+    top: -226px ;
+}

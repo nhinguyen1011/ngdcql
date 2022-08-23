@@ -86,10 +86,14 @@ h1{
     max-width: 750px;
     max-height: 600px;
     overflow-y: scroll;
-    text-decoration: none
-
 }
-
+#main-content a{
+    color:black;
+    text-decoration: none
+}
+#main-content li{
+    list-style-type: none;
+}
 
 ::-webkit-scrollbar{
     width: 10px;

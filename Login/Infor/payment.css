@@ -130,3 +130,8 @@ h1{
     font-size: large;
 
 }
+#name{
+    position:relative;
+    left:300px;
+    top: -200px ;
+}
