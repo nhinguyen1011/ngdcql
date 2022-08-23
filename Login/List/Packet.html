@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/Infor/desktop.css">
+        <link rel="stylesheet" href="/List/Packet.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Infomation</title>
+        <title>Gói sản phẩm</title>
     </head>
     <body>
       <div id = "wrapper">
@@ -53,23 +53,71 @@
           </div>
           </nav>
         </div>
-        <!-- ảnh -->
-        <div class = "content" width="140" height="100">
-            <a href="/Infor/Infor.html" id="ima">
-                <img src="/DL/thongtin.png" class="custom" >
-            </a>&ensp;
-            <a href="/Infor/hismanage.html" id="ima">
-                <img src="/DL/sua.png" class="custom" >
-            </a>
-        </div>
-        <div class = "ncontent" width="250" height="100">
-            <a href="/Infor/shopping.html" id="ima">
-                <img src="/DL/mua.png" class="custom" >
-            </a>&ensp;
-            <a href="/Infor/payment.html" id="ima">
-                <img  src="/DL/pay.png" class="custom">
-            </a>
+          <h1>Gói các nhu yếu phẩm</h1>
+          <div class="wrap">
+            <form action="" class="search" method="post">
+           <input type="text" class="searchTerm" placeholder="Search..">
+           <button type="submit" class="searchButton">
+             Submit
+          </button>
+          Lọc theo
+          <select name="mua" required="">
+            <option value="">Best-seller</option>
+            <option value="">New</option>
+            <option value="">Trend</option>
+          </select>
+          Sắp xếp
+          <select name="time" required="">
+            <option value="">Tăng dần</option>
+            <option value="">Giảm dần</option>
+          </select>
+        </form>
+     </div>
+          <div >
+            <table class = "lab" border = "1" >
+                <tr>
+                    <th colspan="2">Tên gói</th>
+                    <th>Số lượng mỗi người</th>
+                    <th>Số lượng sản phẩm</th>
+                </tr>
+                <tr>
+                  <td><a href = "/List/TP.html">
+                      <img id="ima" src="/Nhuyeupham/Group 1757.png">
+                    </a>
+                     </td>                   
+                    <td>Thực phẩm tươi sống</td>
+                    <td>2</td>
+                    <td>24</td>
+                    
+                </tr>
+                <tr>
+                  <td> <a href = "/List/Lt.html">
+                      <img id="ima" src="/Nhuyeupham/Group 1769.png">
+                    </a>
+                     </td>  
+                    <td>Lương thực</td>
+                    <td>2</td>
+                    <td>24</td>
+                   
+                </tr>
+                <tr>
+                  <td><a href = "/List/Cnp.html">
+                      <img id="ima" src="/Nhuyeupham/Group 1764.png">
+                    </a>
+                     </td>  
+                    <td>Các loại công nghệ phẩm</td>
+                    <td>2</td>
+                    <td>24</td>
+                    
+                </tr>
+            </table>
+            <br>
+            <button type="button" onclick="location.href='/Infor/shopping.html'" class="button" >Danh sách sản phẩm</button>          
           </div>
+          </nav>
+        </div>
+        
       </div>
     </body>
+
 </html>

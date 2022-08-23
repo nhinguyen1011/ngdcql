@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/Infor/payment.css" />
+        <link rel="stylesheet" href="/List/Addpack.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Danh sách nhu yếu phẩm</title>    </head>
+        <title>Thực phẩm tươi sống</title>
+    </head>
     <body>
       <div id = "wrapper">
         <div id = "header" style="width:25%">
@@ -49,44 +51,47 @@
               <img width="30" height="20" src="/DL/Ellipse.png" class="new" alt="website">
             </a>
           </div>
-          <div id="list">
-              <h1>Thanh Toán</h1>
-              <h2>Tài khoản thanh toán</h2>
-            <div class="wrap">
-                <form action="" onsubmit="login()" >
-                    <p class = "mk">Số tài khoản
-                        <input type="text" class="searchTerm" >
-                    </p>
-                    <p>Số dư nợ đầu kì
-                        <input type="text" class="searchTerm" >
-                    </p>
-                    <p>Hạn mức thanh toán tối thiểu 
-                        <input type="text" class="searchTerm" >
-                    </p>
-                    <p>Số tiền thanh toán 
-                        <input type="text" class="searchTerm" >
-                    </p>
-                </form>
-            </div>
-            <div class = "open">
-                        <p class = "lk">Số dư nợ cuối kì
-                            <input type="text" class="input" >
-                            <span class="fa fa-pencil" style="font-size:24px"></span>
-                        </p>
-                        <button id="submit1"  type="button" id="btnPassword">THANH TOÁN</button>
-             </div>
+          </nav>
+        </div>
+        <div>
+          <table class = "lab" frame="below"  >
+            <tr>
+              <td>
+                  <img id="ima" src="/Nhuyeupham/Group 1757.png">
+                 </td>                   
+                <td>Cá lóc</td>
+                <td>50000/lạng</td>
+                <td>12/ngày</td>
+                <td><input class="minus is-form" type="button" value="50000"readonly></td>
+
+            <td>
+              <i  class="fa fa-trash" ></i>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                  <img id="ima" src="/Nhuyeupham/Group 1759.png">
+                 </td>                   
+                <td>Thịt nạt</td>
+                <td>25000/lạng</td>
+                <td>12/ngày</td>
+                <td><input class="minus is-form" type="button" value="25000"readonly></td>
+            <td>
+              <i  class="fa fa-trash" ></i>
+            </td>
+            
+            </tr>
+        </table>
+        <input class="m" type="button" value="Tổng tiền"readonly>
+            <button type="submit" onclick="location.href='/Infor/thanhtoan.html'" id="submit1">
+              75000        
+            </button>
+            
           </div>
           </nav>
         </div>
+        
       </div>
-      <script>
-        btnElement.addEventListener('click', function() {
-        const currentType = ipnElement.getAttribute('type')
-        ipnElement.setAttribute('type',
-        window.location.href = "./thanhtoan.html"
-  )
-})
-    </script>
     </body>
-    
+
 </html>

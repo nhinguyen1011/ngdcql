@@ -12,7 +12,7 @@ body {
 #list h2{
     font-size: 30px;
     position: relative;
-    left: 350px;
+    left: 390px;
     top: -400px; }
 
 .lk{
@@ -45,8 +45,8 @@ h1{
 }
 .custom-logo{
     position: relative;
-    left: 80px;
-    top: 30px; 
+    left: 90px;
+    top: 50px; 
   }
 #menu {
     position: relative;
@@ -75,7 +75,7 @@ h1{
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -400px; 
+    top: -360px; 
 }
 .content #ima{
     position:relative;
@@ -96,7 +96,7 @@ h1{
 }
 .wrap{
     position:relative;
-    left:350px;
+    left:400px;
     top: -400px ;
     font-size: large;
  

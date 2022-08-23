@@ -1,29 +1,44 @@
 body {
-    background-image: url('/DL/bg.png');
-    background-size: cover;
+    background-image: url('/DL/full.png');
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
-button { 
-    background-color: white;  color: black;  border: 2px solid #DC143C;}
-.active{
-        text-decoration: none
-    }
+.wrap .searchButton{ 
+    background-color: white;  color: black;  border: 2px solid black;
+}
+#content{
+    position:relative;
+    left:30px;
+    top: 190px ;
+    
+}
+h1{
+    position:relative;
+    left:530px;
+    top: -430px ;
+    
+}
 .custom-logo{
     position: relative;
     left: 80px;
-    top: 30px; 
+    top: 60px; 
   }
+.active{
+    text-decoration: none
+}
 #menu {
     position: relative;
-    left: 25px;
+    left: 20px;
     top: 30px; 
     font-size:18px;
     list-style-type: none;
-    line-height: 60px;
+    line-height: 50px;
 }
+
 #menu li img{
     position: relative;
-    left: -40px;
+    left: -30px;
     top: 40px; 
     font-size:18px;
 }
@@ -32,16 +47,70 @@ button {
     left: -30px;
     top: 40px; 
     font-size:14px;
-    text-decoration: none
-
+    text-decoration: none;
+    color:black
 }
+
 .icon-mini{
     position:relative;
     left: 1100px;
-    top: -400px; 
+    top: -300px; 
 }
-#container{
+
+.wrap{
     position:relative;
-    left: 300px;
-    top: -220px; 
+    left:330px;
+    top: -470px ;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+#content h1 {
+    position: relative;
+    left: 550px;
+}
+
+#main-content {
+    position:relative;
+    left: 90px;
+    top: -400px;
+    max-width: 750px;
+    max-height: 600px;
+    overflow-y: scroll;
+    text-decoration: none
+
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#content h2 {
+    position:relative;
+    left: 680px;
+    top: -450px;
+}
+
+#add {
+    position: relative;
+    left: 400px;
+    top: -450px;
+    width: 80px;
+    height: 40px;
 }
